@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Instituto de educacion">
+    <meta name="keywords" content="HTML, CSS,">
+    <meta name="author" content="Paula Gomez Roca">
+    <title>Untref</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Poppins:wght@300;500&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600;700&family=Poppins:wght@300;500&display=swap" 
+     rel="stylesheet">
+     <link rel="icon" type="image/png" href="./favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/master.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="navcontainer">
+        <nav class="navbar navbar-expand-lg bg-blue ">
+          <img src="./img/logo.jpg" alt="logo untref" id="logo">
+          <div class="container-fluid ">
+            <a class="navbar-brand custom-text-color " href="#">Quienes somos</a>
+            <button class="navbar-toggler custom-text-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon custom-text-color "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle custom-text-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nosotros
+                  </a>
+                  <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item custom-text-color" href="#">Porque elegirnos</a></li>
+                    <li><a class="dropdown-item custom-text-color" href="#">Propuesta educativa</a></li>
+                    
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link custom-text-color" href="#">Contacto</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-text-color" href="#">Noticias</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+   <main>
+     <!--banner-->
+     <section class="banner">
+      <img src="./img/Banner.png" alt="Banner">
+      <h2 class="subtituloBanner">Untref School</h2>
+      <h3 class="textobanner">Inscripciones abiertas</h3>
+   </section>
+     <!--Quienes somos-->
+     <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/edificio .jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>El colegio</h5>
+            <p>Instalaciones nuevas.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/ninoFeliz.jpg" class="d-block w-100" alt="nino feliz">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ninos felices </h5>
+            <p>Nuestros alumnos estan felices.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/TutoraPersonal.jpg" class="d-block w-100" alt="tutora">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Educacion personalizada</h5>
+            <p>Porque cada persona es distinta.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+     <!--propuesta-->
+  </section > 
+  <section  id="propuesta"  class="row">
+    <div class="titulos"><h2 class="titulos">Propuesta educativa</h2></div>
+    <article class="col-12 col-md-4" >
+      <h2>Medio ambiente</h2>
+      <div class="card" >
+        <img src="./img/ninosConPlantas.jpg" class="card-img-top" 
+        alt="naturaleza y ninos" >
+        <div class="card-body">
+          <h5 class="card-title">Arender a valorar el medio ambiente</h5>
+          <p class="card-text">Nuestra hogar, planeta tierra, queremos a ense;ar a valorarlo</p>
+          <a href="#" class="btn btn-primary">Mas detalles</a>
+        </div>
+      </div>
+    </article >
+    <article class="col-12 col-md-4" >
+      <h2>Deporte</h2>
+      <div class="card" >
+        <img src="./img/football-g5bd996489_640.jpg" class="card-img-top"
+         alt="naturaleza y ninos" >
+        <div class="card-body">
+          <h5 class="card-title">el deporte es como la vida misma</h5>
+          <p class="card-text">El deporte nos ensena a vivir, por eso lo valoramos y le dedicamos tiempo</p>
+          <a href="#" class="btn btn-primary">Mas detalles</a>
+        </div>
+      </div>
+    </article >
+    <article class="col-12 col-md-4" >
+      <h2>Musica</h2>
+      <div class="card" >
+        <img src="./img/musica.jpg" class="card-img-top" 
+        alt="nino con flauta" >
+        <div class="card-body">
+          <h5 class="card-title">La musica, expresion de si mismo</h5>
+          <p class="card-text">Esta estudiado que la educacion musical favorece el desarrollo neuronal, asi como la integracion afectiva.</p>
+          <a href="#" class="btn btn-primary">Mas detalles</a>
+        </div>
+      </div>
+    </article >
+    
+
+   </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
