@@ -8,18 +8,37 @@
 
 .navcontainer{
   position: fixed;
+  display: grid;
+  grid-template-columns:3fr,1fr,1fr,1fr,1fr ;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 2;
   color:#fc7300 ;
 }
+.pri{
+  display: grid;
+  grid-column:2/3 ;
+}
+.sec{
+  display: grid;
+  grid-column:3/4 ;
+}
+.ter{
+  display: grid;
+  grid-column:4/5; 
+}
+.navbar-brand #cuar{
+  display: grid;
+  grid-column:5/6;
+}
+
 main{
  
     padding-top:100px; /* Altura del encabezado */
     width:100%;
     overflow-y: scroll;
-    background-color:var(--gray); 
+    background-color:var(--blue); 
    
 }
 #logo{
@@ -28,11 +47,12 @@ main{
   margin-left: 10px;
 }
  .bg-blue{
-  background: var(--blue);
+  background: var(--gray);
  }
  /* CSS personalizado para cambiar el color de la fuente */
 .custom-text-color {
-  color: #FC7300; /* Color rojo (#ff0000) */
+  color: #FC7300; 
+  font-family: 'Poppins', sans-serif;
 }
 .banner{
   width: 100%;
@@ -54,7 +74,8 @@ main{
 .textobanner{
   position: absolute;
   top:60% ;
-  left:0; 
+  left:0;
+  background-color:rgb(252,115,0,0.60); 
   width: 100%;
   text-align: center;
   font-family: 'Belanosima', sans-serif;
@@ -63,6 +84,155 @@ main{
 }
 .titulos{
   text-align: center;
-  background-color:var(--green) ;
+  background-color:var(--blue) ;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+   color: var(--gray);
+   padding:10px ;
+}
+.titulo{
+  text-align: center;
+  padding: 10px;
+}
+.carousel-indicators{
+  background-color:rgb(0, 66, 90,0.70) ;
+}
+.carousel-caption {
+  
+  background-color: rgb(0, 66, 90,0.70) ;
+  font-family: 'Poppins', sans-serif;
+}
+.accordion-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  
 }
 
+
+.accordion-body {
+  padding: 5px;
+}
+.texto{
+  color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.form{
+  width:40% ;
+  background-color: var();
+  padding: 10px;
+  justify-content: center;
+  margin: 10px;
+}
+.form-label{
+  color: aliceblue;
+  margin-top:10px ;
+}
+.buttoncontainer{
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+}
+.button{
+  display: grid;
+  grid-column:2/3 ;
+  background-color:whitesmoke;
+  border:2px solid #FC7300;
+  color:var(--orange) ;
+}
+.button:hover{
+  background-color:var(--orange) ;
+  border:var(--orange);
+  color: aliceblue;
+}
+
+.piePagina{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color:var(--gray) ;
+  padding:0% ;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:1fr,3fr;
+  align-items: center;
+  justify-content: space-around;
+}
+.footertitulos{
+  width: 100%;
+  color:rgb(252, 115, 0); 
+  font-weight: 300;
+  grid-column:1/4 ;
+  grid-row:1/2 ;
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+}
+#red{
+  grid-column:1/2 ;
+  margin:0 auto ;
+}
+#ubi{
+  grid-column: 2/3;
+  margin: 0 auto;
+}
+#con{
+  grid-template:3 ;
+  margin-left:10px ;
+}
+.redes{
+  grid-column:1/2 ;
+  grid-row:2/2 ;
+  display: grid;
+  justify-content: center;
+}
+#redes{
+  
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  justify-content:center;
+  list-style-type: none;
+}
+#ins{
+display: grid;
+grid-column:2/3 ;
+margin-left: 3px;
+margin-right: 4px;
+
+}
+
+ #face{
+display:grid ;
+grid-column:1/2 ;
+
+ }
+  #lin{
+display:grid ;
+grid-column: 3;
+}
+ion-icon{
+  color:rgb(252, 115, 0);
+  font-size:35px ;
+}
+.mapa{
+  grid-column: 2/3;
+  grid-row:2/2 ;
+}
+#mapa{
+  
+  display:flex ;
+  justify-content: center;
+  
+}
+.contacto{
+  grid-column:3;
+  grid-row:2/3;
+  font-size: larger;
+  display: grid;
+  grid-column:1fr,2fr,1fr ;
+  color:rgb(252, 115, 0);
+}
+
+ #mail #tel  {
+    
+ grid-column:2/3 ;
+ margin:0 auto ; 
+}
