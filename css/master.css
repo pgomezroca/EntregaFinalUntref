@@ -34,12 +34,10 @@
 }
 
 main{
- 
     padding-top:100px; /* Altura del encabezado */
     width:100%;
     overflow-y: scroll;
     background-color:var(--blue); 
-   
 }
 #logo{
   width: 90px; ;
@@ -82,12 +80,15 @@ main{
   color: aliceblue;
   font-weight: 300;
 }
+body{
+  background-color:var(--blue) ;
+}
 .titulos{
   text-align: center;
   background-color:var(--blue) ;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0;
-   color: var(--gray);
+ color: var(--gray);
    padding:10px ;
 }
 .titulo{
@@ -98,31 +99,36 @@ main{
   background-color:rgb(0, 66, 90,0.70) ;
 }
 .carousel-caption {
-  
   background-color: rgb(0, 66, 90,0.70) ;
   font-family: 'Poppins', sans-serif;
 }
 .accordion-header {
   background-color: #f0f0f0;
   padding: 10px;
-  
 }
-
-
 .accordion-body {
   padding: 5px;
+}
+.news{
+  background-color:var(--blue) ;
 }
 .texto{
   color: #f0f0f0;
   font-family: 'Poppins', sans-serif;
-  
 }
+.formcontainer{
+  background-color:var(--blue) ;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
 .form{
-  width:40% ;
-  background-color: var();
+  width: 40%;
+  background-color: var(--blue);
   padding: 10px;
   justify-content: center;
-  margin: 10px;
 }
 .form-label{
   color: aliceblue;
@@ -185,7 +191,6 @@ main{
   justify-content: center;
 }
 #redes{
-  
   display: grid;
   grid-template-columns:repeat(3,1fr) ;
   justify-content:center;
@@ -232,7 +237,6 @@ ion-icon{
 }
 
  #mail #tel  {
-    
  grid-column:2/3 ;
  margin:0 auto ; 
 }
